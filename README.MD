@@ -1,1 +1,1 @@
-This is a todo list app involving a Node/Express backend, and using  a SQL database for data storage.
+This is a todo list app involving a Node/Express/MongoDB backend.

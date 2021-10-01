@@ -1,0 +1,27 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/61562e277ccae68f943199ee
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Test Dummy"
+}
+
+###
+
+DELETE http://localhost:3000/users/615631a402fe5b6e5dbeeae7
+
+###
+
+PATCH http://localhost:3000/users/6156392107dbdcabf4a8f81a
+Content-Type: application/json
+
+{
+    "name": "Arnold Schwartzenegger"
+}
